@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Invoicer.AppHost/Invoicer.AppHost.csproj" />
+  <Project Path="Invoicer.Gateway/Invoicer.Gateway.csproj" />
   <Project Path="Invoicer.ServiceDefaults/Invoicer.ServiceDefaults.csproj" />
 </Solution>

@@ -6,4 +6,6 @@ database.AddDatabase("Invoicer");
 
 builder.AddViteApp(name: "Invoicer-App", appDirectory: "../frontend");
 
+builder.AddProject<Projects.Invoicer_Gateway>("invoicer-gateway");
+
 builder.Build().Run();
