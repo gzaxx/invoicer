@@ -8,4 +8,6 @@ builder.AddViteApp(name: "Invoicer-App", appDirectory: "../frontend");
 
 builder.AddProject<Projects.Invoicer_Gateway>("invoicer-gateway");
 
+builder.AddProject<Projects.Invoicer_Documents>("invoicer-documents");
+
 builder.Build().Run();

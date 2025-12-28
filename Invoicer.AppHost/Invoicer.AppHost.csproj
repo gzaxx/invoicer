@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Invoicer.Documents\Invoicer.Documents.csproj" />
     <ProjectReference Include="..\Invoicer.Gateway\Invoicer.Gateway.csproj" />
   </ItemGroup>
 
